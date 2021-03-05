@@ -16,13 +16,16 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatInputModule} from '@angular/material/input';
 import { SearchComponent } from './search/search.component';
 import { MoviesComponent } from './movies/movies.component';
+import { HomePageComponent } from './pages/home-page/home-page.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     SearchComponent,
-    MoviesComponent
+    MoviesComponent,
+    HomePageComponent
   ],
   imports: [
     BrowserModule,
@@ -34,7 +37,8 @@ import { MoviesComponent } from './movies/movies.component';
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
-    MatInputModule
+    MatInputModule,
+    HttpClientModule, 
   ],
   providers: [],
   bootstrap: [AppComponent]
