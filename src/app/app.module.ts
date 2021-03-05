@@ -17,6 +17,7 @@ import { SearchComponent } from './search/search.component';
 import { MoviesComponent } from './movies/movies.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ReservationComponent } from './pages/reservation/reservation.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { HttpClientModule } from '@angular/common/http';
     NavbarComponent,
     SearchComponent,
     MoviesComponent,
-    HomePageComponent
+    HomePageComponent,
+    ReservationComponent
   ],
   imports: [
     BrowserModule,
