@@ -25,6 +25,7 @@ import { MisReservasComponent } from './pages/mis-reservas/mis-reservas.componen
 import { ListaMisReservasComponent } from './lista-mis-reservas/lista-mis-reservas.component';
 import { FavoritesComponent } from './pages/favorites/favorites.component';
 import { FavoritesListComponent } from './favorites-list/favorites-list.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { FavoritesListComponent } from './favorites-list/favorites-list.componen
     MisReservasComponent,
     ListaMisReservasComponent,
     FavoritesComponent,
-    FavoritesListComponent
+    FavoritesListComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
