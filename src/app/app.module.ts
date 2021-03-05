@@ -23,6 +23,8 @@ import { Reservation2Component } from './pages/reservation2/reservation2.compone
 import { CreaReservaComponent } from './crea-reserva/crea-reserva.component';
 import { MisReservasComponent } from './pages/mis-reservas/mis-reservas.component';
 import { ListaMisReservasComponent } from './lista-mis-reservas/lista-mis-reservas.component';
+import { FavoritesComponent } from './pages/favorites/favorites.component';
+import { FavoritesListComponent } from './favorites-list/favorites-list.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { ListaMisReservasComponent } from './lista-mis-reservas/lista-mis-reserv
     Reservation2Component,
     CreaReservaComponent,
     MisReservasComponent,
-    ListaMisReservasComponent
+    ListaMisReservasComponent,
+    FavoritesComponent,
+    FavoritesListComponent
   ],
   imports: [
     BrowserModule,

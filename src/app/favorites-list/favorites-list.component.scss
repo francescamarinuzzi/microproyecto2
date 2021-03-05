@@ -1,11 +1,14 @@
-
-
 .movie-space{
     width: 100%;
     overflow: hidden;
-    background-color: black;
-    margin-top: 160px;
+    background-color: white;
+    margin: 30px auto;
     padding: 20px 0px;
+    h1{
+        padding-left: 90px;
+        font-size: xx-large;
+        color: #cc9933;
+    }
    
     ul{
         padding: 0px;
@@ -16,16 +19,9 @@
         float: left;
         width: 27%;
         height: 300px;
-        background: white;
+        background: black;
         margin: 30px 10px 0px 59px;
-        a{
-            color: #cc9933;
-            
-        }
-        a:hover{
-            color: black;
-        }
+        
         
     }
 }
-
