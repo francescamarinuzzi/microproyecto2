@@ -18,6 +18,11 @@ import { MoviesComponent } from './movies/movies.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ReservationComponent } from './pages/reservation/reservation.component';
+import { ReservationSearchComponent } from './reservation-search/reservation-search.component';
+import { Reservation2Component } from './pages/reservation2/reservation2.component';
+import { CreaReservaComponent } from './crea-reserva/crea-reserva.component';
+import { MisReservasComponent } from './pages/mis-reservas/mis-reservas.component';
+import { ListaMisReservasComponent } from './lista-mis-reservas/lista-mis-reservas.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +31,12 @@ import { ReservationComponent } from './pages/reservation/reservation.component'
     SearchComponent,
     MoviesComponent,
     HomePageComponent,
-    ReservationComponent
+    ReservationComponent,
+    ReservationSearchComponent,
+    Reservation2Component,
+    CreaReservaComponent,
+    MisReservasComponent,
+    ListaMisReservasComponent
   ],
   imports: [
     BrowserModule,

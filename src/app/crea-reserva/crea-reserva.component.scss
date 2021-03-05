@@ -1,0 +1,33 @@
+.reserva{
+    width: 40%;
+    height: 750px;
+    background-color: black;
+    margin: 50px auto;
+    text-align: left;
+    h1{
+        color: white;
+        padding-top: 30px;
+        padding-left: 30px;
+        font-size: xxx-large;
+    }
+    h4{
+        color: white;
+        margin-top: 500px;
+        margin-left: 185px;
+    }
+    input{
+        height: 40px;
+        margin-left: 210px;
+    }
+    button{
+        margin-left: 170px;
+        margin-top: 20px;
+        width: 40%;
+        height: 60px;
+        font-size: x-large;
+    }
+    button:hover{
+        background-color: #cc9933;
+        color: white;
+    }
+}
