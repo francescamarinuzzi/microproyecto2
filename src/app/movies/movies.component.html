@@ -2,13 +2,15 @@
 <div  class="movie-space">
     <div *ngFor="let data of data" style="text-align:center">
         <ul>
-            <li><a [routerLink]="['']">
-                <span class="material-icons">
-                favorite_border
-                </span>
-                <h2> {{ data.original_title }} </h2> 
-                <img width="200" src = {{htm}}{{data.poster_path}}> 
-            </a></li>
+            <li>
+                <img src = {{htm}}{{data.poster_path}}> 
+                
+                <h2> {{ data.original_title }} </h2>
+                <div>{{contador}}</div>
+                <button (click)=like()><span class="material-icons">
+                    favorite_border
+                </span></button>
+            </li>
         </ul>
 
         

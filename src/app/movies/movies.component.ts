@@ -35,6 +35,10 @@ export class MoviesComponent implements OnInit {
       console.log(this.data)
     })
   }
+  contador = 0;
+  like(){
+    this.contador++;
+  }
 
  
   
