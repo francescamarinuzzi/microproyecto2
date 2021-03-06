@@ -18,11 +18,11 @@ export class LoginComponent implements OnInit {
 
   constructor(private authSvc: AuthService,public afAuth: AngularFireAuth) { }
 
-  async onGoogleLogin(){
+  /*async onGoogleLogin(){
     try{this.authSvc.loginGoogle();}
     catch(error){console.log(error)}
     
-  }
+  }*/
 
   ngOnInit(){
    
