@@ -1,0 +1,41 @@
+.login {
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    ;
+  }
+
+.login-card{
+    text-align: -webkit-center;
+    
+}
+  
+  .email-login, .password-login {
+    width: 100%;
+    margin-top:5%;
+
+  }
+
+.login-b, .google-b{
+    background-color: #Cc9933;
+    color: white;  
+    width: 100%;
+    margin-top: 5%;
+}
+
+
+::ng-deep .mat-ink-bar, ::ng-deep.mat-form-field-underline, ::ng-deep .mat-form-field-ripple, ::ng-deep .mat-ink-bar{
+background-color: #Cc9933 !important;
+text-align: center;
+}
+
+.f-password{
+  text-align: left;
+  margin-top: 5%;
+  font-size: 70%;
+}
+
+
+
+

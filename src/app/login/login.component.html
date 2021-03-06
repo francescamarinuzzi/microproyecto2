@@ -1,0 +1,64 @@
+<div class="login-card">
+    <mat-card class="login">
+        <mat-card-header>
+            
+        <div mat-card-avatar class="login-header"></div>
+        <mat-card-title>Login/Register</mat-card-title>
+        </mat-card-header>
+            <mat-tab-group>
+                <mat-tab label="Login"> 
+                    
+                    <mat-form-field class="email-login">
+                        <mat-label>Email</mat-label>
+                        <mat-icon matSuffix>email</mat-icon>
+                        <input class="form"type="email" matInput placeholder="Email" value="" >
+                    </mat-form-field>
+                    
+                    <mat-form-field class="password-login">
+                        <mat-label>Password</mat-label>
+                        <mat-icon matSuffix>vpn_key</mat-icon>
+                        <input type="password" matInput placeholder="Password" >
+                    </mat-form-field>
+
+                    <button class="login-b" mat-button routerLink="login">Login</button>
+                    
+                </mat-tab>
+                <mat-tab label="Register" > 
+
+                    <mat-form-field class="email-login">
+                        <mat-label>Email</mat-label>
+                        <mat-icon matSuffix>email</mat-icon>
+                        <input type="email" matInput placeholder="Email" value="" >
+                    </mat-form-field>
+                    
+                    <mat-form-field class="password-login">
+                        <mat-label>Password</mat-label>
+                        <mat-icon matSuffix>vpn_key</mat-icon>
+                        <input type="password" matInput placeholder="Password" >
+                    </mat-form-field>
+
+                    <mat-form-field class="password-login">
+                        <mat-label>Confirm Password</mat-label>
+                        <mat-icon matSuffix>vpn_key</mat-icon>
+                        <input type="password" matInput placeholder="Confirm Password" >
+                    </mat-form-field>
+
+                    <button  class="login-b" mat-button >Register</button>
+                    
+                </mat-tab>
+            </mat-tab-group>
+       
+            <button (click)='onGoogleLogin()' class='google-b' mat-button>Sign in with Google</button>
+           
+            <div class='f-password'>
+                <p>
+                    <a [routerLink]=''>Forgot password?</a>
+                </p>
+            </div>
+            
+        
+       
+    </mat-card>
+    
+</div>
+  
