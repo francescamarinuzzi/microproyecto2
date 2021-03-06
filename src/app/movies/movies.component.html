@@ -1,33 +1,18 @@
 
-<div class="movie-space">
-    <ul>
-        <li><a [routerLink]="['']">
-            <span class="material-icons">
-            favorite_border
-            </span>
-            <h2> movie.popularity </h2>
-        </a></li>
-        <li><a href=""><span class="material-icons">
-            favorite_border
-            </span></a></li>
-        <li><a href=""><span class="material-icons">
-            favorite_border
-            </span></a></li>
-        <li><a href=""><span class="material-icons">
-            favorite_border
-            </span></a></li>
-        <li><a href=""><span class="material-icons">
-            favorite_border
-            </span></a></li>
-        <li><a href=""><span class="material-icons">
-            favorite_border
-            </span></a></li>
-        <li><a href=""><span class="material-icons">
-            favorite_border
-            </span></a></li>
-        <li><a href=""><span class="material-icons">
-            favorite_border
-            </span></a></li>
+<div  class="movie-space">
+    <div *ngFor="let data of data" style="text-align:center">
+        <ul>
+            <li><a [routerLink]="['']">
+                <span class="material-icons">
+                favorite_border
+                </span>
+                <h2> {{ data.original_title }} </h2> 
+                <img width="200" src = {{htm}}{{data.poster_path}}> 
+            </a></li>
+        </ul>
 
-    </ul>
+        
+    </div>
 </div>
+
+
