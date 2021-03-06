@@ -1,0 +1,27 @@
+.movie-space{
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+    margin: 30px auto;
+    padding: 20px 0px;
+    h1{
+        padding-left: 90px;
+        font-size: xx-large;
+        color: #cc9933;
+    }
+   
+    ul{
+        padding: 0px;
+        margin: 0px;
+    }
+    ul li {
+        list-style: none;
+        float: left;
+        width: 27%;
+        height: 300px;
+        background: black;
+        margin: 30px 10px 0px 59px;
+        
+        
+    }
+}

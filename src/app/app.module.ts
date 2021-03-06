@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AngularFireModule } from '@angular/fire';
@@ -19,11 +18,39 @@ import {MatIconModule} from '@angular/material/icon';
 
 
 
+import { NavbarComponent } from './navbar/navbar.component';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import { SearchComponent } from './search/search.component';
+import { MoviesComponent } from './movies/movies.component';
+import { HomePageComponent } from './pages/home-page/home-page.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ReservationComponent } from './pages/reservation/reservation.component';
+import { ReservationSearchComponent } from './reservation-search/reservation-search.component';
+import { Reservation2Component } from './pages/reservation2/reservation2.component';
+import { CreaReservaComponent } from './crea-reserva/crea-reserva.component';
+import { MisReservasComponent } from './pages/mis-reservas/mis-reservas.component';
+import { ListaMisReservasComponent } from './lista-mis-reservas/lista-mis-reservas.component';
+import { FavoritesComponent } from './pages/favorites/favorites.component';
+import { FavoritesListComponent } from './favorites-list/favorites-list.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent
+    LoginComponent,
+    NavbarComponent,
+    SearchComponent,
+    MoviesComponent,
+    HomePageComponent,
+    ReservationComponent,
+    ReservationSearchComponent,
+    Reservation2Component,
+    CreaReservaComponent,
+    MisReservasComponent,
+    ListaMisReservasComponent,
+    FavoritesComponent,
+    FavoritesListComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -37,9 +64,15 @@ import {MatIconModule} from '@angular/material/icon';
     MatTabsModule,
     MatInputModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
 
 
+    AngularFirestoreModule, BrowserAnimationsModule,
+    MatToolbarModule,
+    MatIconModule,
+    MatButtonModule,
+    MatInputModule,
+    HttpClientModule, 
   ],
   providers: [],
   bootstrap: [AppComponent]
