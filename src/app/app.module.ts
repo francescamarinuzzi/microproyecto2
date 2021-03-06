@@ -34,6 +34,9 @@ import { FavoritesComponent } from './pages/favorites/favorites.component';
 import { FavoritesListComponent } from './favorites-list/favorites-list.component';
 import { FooterComponent } from './footer/footer.component';
 
+
+
+
 @NgModule({
   declarations: [
     AppComponent,

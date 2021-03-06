@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { AngularFireAuth } from '@angular/fire/auth';
-import { AngularFirestore } from '@angular/fire/firestore'; 
-import { Router } from '@angular/router';
 import { AuthService } from '../auth.service';
 
 
@@ -16,7 +14,7 @@ export class LoginComponent implements OnInit {
 
 
 
-  constructor(private authSvc: AuthService,public afAuth: AngularFireAuth) { }
+  constructor() { }
 
   /*async onGoogleLogin(){
     try{this.authSvc.loginGoogle();}
